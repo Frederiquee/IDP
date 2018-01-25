@@ -1,0 +1,17 @@
+# wordt kaart gescand bij poort of apparaat?
+import serial
+import os
+os.system
+
+
+
+def poort_of_apparaat():
+    poort = 'code...'
+    apparaat = 'code...'
+
+    if card() == 'poort':
+        print('Het poortje krijgt gegevens binnen van database')
+
+    else:
+        print('Informatie wordt doorgegeven aan apparaat')
+        #gegevens worden naar apparaat gestuurd
